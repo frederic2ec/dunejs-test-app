@@ -1,0 +1,29 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.esm.js"
+  },
+  "scripts": {
+    "dev": "dune watch ./src/",
+    "build": "dune build ./src/",
+    "start": "dune start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "vuejsframework": "file:../vuejsframework",
+    "vuetify": "^2.2.21"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "posthtml": {
+    "recognizeSelfClosing": true
+  }
+}
