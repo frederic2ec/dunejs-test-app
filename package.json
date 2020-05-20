@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dunejs": "file:../dunejs",
+    "dunejs": "^0.0.1",
     "vuetify": "^2.2.21"
   },
   "devDependencies": {
