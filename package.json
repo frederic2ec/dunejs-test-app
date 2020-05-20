@@ -7,16 +7,15 @@
     "vue": "./node_modules/vue/dist/vue.esm.js"
   },
   "scripts": {
-    "dev": "dune watch ./src/",
-    "build": "dune build ./src/",
+    "dev": "dune watch --config ./src/",
+    "build": "dune build --config ./src/",
     "start": "dune start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "vuejsframework": "file:../vuejsframework",
+    "dunejs": "file:../dunejs",
     "vuetify": "^2.2.21"
   },
   "devDependencies": {

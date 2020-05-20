@@ -1,31 +1,36 @@
+const Vuetify = require("vuetify");
+
 module.exports = {
   head: {
     title: "DuneJS",
     titleTemplate: "%s | DuneJS App",
     meta: [
       {
-        charset: "utf-8",
+        charset: "utf-8"
       },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "",
-      },
+        content: ""
+      }
     ],
     link: [
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
       },
       {
         rel: "stylesheet",
         href:
-          "https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css",
-      },
-    ],
+          "https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css"
+      }
+    ]
   },
   css: [],
   plugins: ["./plugins/vuetify.js"],
+  options: {
+    vuetify: new Vuetify()
+  }
 };
