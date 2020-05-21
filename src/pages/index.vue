@@ -56,6 +56,9 @@
           <v-btn color="primary" router to="/inspire">
             Continue
           </v-btn>
+          <v-btn color="primary" router to="/error">
+            Redirect to 404
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
